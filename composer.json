@@ -1,0 +1,14 @@
+{
+  "name": "drupal/rich_autocomplete_order_items",
+  "type": "drupal-module",
+  "description": "Tweaks autocomplete tag style in order inline editor to show more data than just title and id from order items.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/rich_autocomplete_order_items",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/rich_autocomplete_order_items",
+    "source": "http://cgit.drupalcode.org/rich_autocomplete_order_items"
+  },
+  "require": { }
+}

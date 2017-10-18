@@ -1,0 +1,7 @@
+name: rich_autocomplete_order_items
+type: module
+description: Tweaks autocomplete tag style in order inline editor to show more data than just title and id from order items.
+core: 8.x
+package: Commerce
+dependencies:
+  - commerce
