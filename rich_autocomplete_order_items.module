@@ -27,31 +27,27 @@ function rich_autocomplete_order_items_help($route_name, RouteMatchInterface $ro
  * Implements hook_form_BASE_FORM_ID_alter().
  */
 function rich_autocomplete_order_items_form_commerce_order_default_edit_form_alter(&$form, &$form_state, $form_id) {
-  //kint($form);
   /*$field_name = "commerce_order_item";
   if (!isset($form[$field_name])) { return; }
   foreach($form[$field_name]['und'] as $delta => $element) {
-    if (!is_numeric($delta)) { continue; }
-    kint($form[$field_name]['und'][$delta]['target_id']);
+  if (!is_numeric($delta)) { continue; }
   }*/
 }
 
 /*
  * Implements hook_inline_entity_form_reference_form_alter()
-   * Perform alterations before the reference form is included in the IEF
-   * widget.
-   *
-   * The reference form is used to add existing entities through an
-   *  autocomplete field
-   *
-   * @param $reference_form
-   *   Nested array of form elements that comprise the reference form.
-   * @param $form_state
-   *   The form state of the parent form.
-   
+ * Perform alterations before the reference form is included in the IEF
+ * widget.
+ *
+ * The reference form is used to add existing entities through an
+ *  autocomplete field
+ *
+ * @param $reference_form
+ *   Nested array of form elements that comprise the reference form.
+ * @param $form_state
+ *   The form state of the parent form.
+
 function rich_autocomplete_order_items_inline_entity_form_reference_form_alter(&$reference_form, &$form_state) {
-  ddl($reference_form);
   $reference_form['entity_id']['#description'] = t('New autocomplete description');
-  //$reference_form['entity_id']['#type'] = 'select';
 }
  */
